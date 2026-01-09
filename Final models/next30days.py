@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # READ THE DATASHEET (make panda recognize there's a date and not treat as normal string)
-df = pd.read_csv("C:/Users/Phipr/Desktop/LSTM_Solar_Prediction/Hanoi_daily.csv",  index_col='datetime', parse_dates=True)
+df = pd.read_csv( "C:/Users/Phipr/Desktop/Past Research/Completed Projects/LSTM_Solar_Prediction/Hanoi_daily.csv",  index_col='datetime', parse_dates=True)
 
 # Print the first 5 values from list
 print(df.head())
